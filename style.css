@@ -6,6 +6,7 @@ body {
 	background-color: #ECF915;
 }
 
+
 .highlight { 
 	color: #FE027E;
 	font-size: 100px;
@@ -14,20 +15,38 @@ body {
 	font-style: normal;
 }
 
-h2, h2 {
+h1, {
 	color:  #FE027E;
 	font-size: 50px;
 	font-family: "Imperial Script", cursive;
 	font-style: normal;
 }
 
+h2 {
+	color:  #FE027E;
+	font-size: 24px;
+	font-family: "Questrial", sans-serif;
+	font-style: normal;
+	padding: 15px;
+  	margin: 25px;
+}
+
 p {
-	max-width: 65ch;
+	max-width: 55ch;
+	margin-bottom: 1em;
 }
 
 strong { 
 font-weight: bold;
 } 
+
+blockquote {
+	text-align: right;
+	padding: 24px;
+	font-size: 50px;
+	
+
+}
 
 span {
 	font-family: "Imperial Script", cursive;
