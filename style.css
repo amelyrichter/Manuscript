@@ -1,21 +1,45 @@
 body { 
-	color: tomato; 
+	color: rgb(17, 17, 17); 
 	font-family: "EB Garamond", serif;
 	font-size: 24px;
 	padding: 24px;
 	background-color: chartreuse;
 }
 
-h1{ 
-	color: tomato;
-	font-size: 70px;
+.highlight { 
+	color: #FE027E;
+	font-size: 100px;
+	font-family: "Imperial Script", cursive;
+	font-weight: 400;
+	font-style: normal;
 }
 
-h2 {
-	color: blue;
+h2, h2 {
+	color:  #FE027E;
 	font-size: 50px;
+	font-family: "Imperial Script", cursive;
 }
 
 p {
 	max-width: 65ch;
+}
+
+strong { 
+font-weight: bold;
+} 
+span {
+	font-family: "Imperial Script", cursive;
+	font-size: 24px;
+	font-style: italic, bold;
+	font-weight: 200;
+	color: #FE027E;
+}
+
+a[href^='https://'] { color: #FE027E; }
+a:link { color: #c90668; }
+a:visited { color: ; }
+a:hover { color: #ff88c3; }
+
+footer {
+	background-color: rgb(97, 190, 4);
 }
