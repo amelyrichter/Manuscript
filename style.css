@@ -75,7 +75,7 @@ blockquote {
 	font-size: 60px;
 	position: absolute;
 	right: 50px;
-	width: 500px;
+	max-width: 15ch;
 	padding: 10px;
 }
 
