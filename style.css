@@ -6,15 +6,6 @@ body {
 	background-color: #ECF915;
 }
 
-
-.highlight { 
-	color: #FE027E;
-	font-size: 200px;
-	font-family: "Imperial Script", cursive;
-	font-weight: 400;
-	font-style: normal;
-}
-
 h1, {
 	color: #fe027e;
 	font-size: 200px;
@@ -32,6 +23,10 @@ h2, h3 {
 	font-style: normal;
 	padding: 0px 0px 40px 0px;
   	
+}
+
+h2 {
+	margin-top: -40px;
 }
 
 p, ul {
@@ -53,8 +48,16 @@ ul {
 	font-style: normal;
 	max-width: 42ch;
 	margin-bottom: 3em;
-	margin-top: 3em;
+	margin-top: 2em;
 	text-align: justify;
+}
+
+.highlight { 
+	color: #FE027E;
+	font-size: 200px;
+	font-family: "Imperial Script", cursive;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .InfosArtikel {
@@ -78,7 +81,7 @@ blockquote {
 
 span {
 	font-family: "Imperial Script", cursive;
-	font-size: 24px;
+	font-size: 30px;
 	font-style: italic, bold;
 	font-weight: 200;
 	color: #FE027E;
@@ -93,5 +96,9 @@ footer {
 	background-color: cant decide yet;
 	width: 100%;
 	padding: 0px 40px 40px 40px;
+	padding-top:0px
+	padding bottom:40px
+	padding left:40px
+	padding right:40px
 	opacity: 70%;
 }
