@@ -31,10 +31,15 @@ h2, h3 {
   	margin: 25px;
 }
 
-p {
+p, ul {
 	max-width: 55ch;
 	margin-bottom: 1em;
 	text-align: justify;
+}
+
+ul {
+	list-style-type: circle;
+	margin: 25px;
 }
 
 .InfosArtikel {
