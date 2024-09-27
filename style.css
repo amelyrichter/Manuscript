@@ -17,15 +17,16 @@ body {
 
 h1, {
 	color:  #FE027E;
-	font-size: 50px;
+	font-size: 3000px;
 	font-family: "Imperial Script", cursive;
-	font-style: normal;
+	
 }
 
 h2, h3 {
 	color:  #FE027E;
 	font-size: 24px;
-	font-family: "Questrial", sans-serif;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 200;
 	font-style: normal;
 	padding: 0px 0px 40px 0px;
   	
@@ -33,13 +34,25 @@ h2, h3 {
 
 p, ul {
 	max-width: 55ch;
-	margin-bottom: 1em;
+	margin-bottom: 3em;
+	margin-top: 2em;
 	text-align: justify;
 }
 
 ul {
 	list-style-type: circle;
 	margin: 25px;
+}
+
+.introductionparagraph {
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	max-width: 55ch;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	text-align: justify;
 }
 
 .InfosArtikel {
@@ -54,6 +67,10 @@ blockquote {
 	text-align: right;
 	padding: 24px;
 	font-size: 50px;
+	position: absolute;
+	right: 50px;
+	width: 500px;
+	padding: 10px;
 }
 
 span {
@@ -64,18 +81,14 @@ span {
 	color: #FE027E;
 }
 
-footer {
-	opacity: 60%;
-}
-
 a[href^='https://'] { color: #FE027E; }
 a:link { color: #FE027E;; }
 a:visited { color: ; }
 a:hover { color: #ff88c3; }
 
 footer {
-	background-color: rgb(97, 190, 4);
+	background-color: cant decide yet;
 	width: 100%;
-	padding: 5px 40px 40px 40px;
-
+	padding: 0px 40px 40px 40px;
+	opacity: 60%;
 }
