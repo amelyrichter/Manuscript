@@ -9,17 +9,19 @@ body {
 
 .highlight { 
 	color: #FE027E;
-	font-size: 100px;
+	font-size: 200px;
 	font-family: "Imperial Script", cursive;
 	font-weight: 400;
 	font-style: normal;
 }
 
 h1, {
-	color:  #FE027E;
-	font-size: 3000px;
-	font-family: "Imperial Script", cursive;
-	
+	color: #fe027e;
+	font-size: 200px;
+	.imperial-script-regular
+		font-family: "Imperial Script", cursive;
+		font-weight: 400;
+		font-style: normal;
 }
 
 h2, h3 {
@@ -45,11 +47,11 @@ ul {
 }
 
 .introductionparagraph {
-	font-size: 24px;
+	font-size: 28px;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 200;
 	font-style: normal;
-	max-width: 50ch;
+	max-width: 42ch;
 	margin-bottom: 3em;
 	margin-top: 3em;
 	text-align: justify;
@@ -65,8 +67,9 @@ font-weight: bold;
 
 blockquote {
 	text-align: right;
+	font-family: "Imperial Script", cursive;
 	padding: 24px;
-	font-size: 50px;
+	font-size: 60px;
 	position: absolute;
 	right: 50px;
 	width: 500px;
