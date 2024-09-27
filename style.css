@@ -22,7 +22,7 @@ h1, {
 	font-style: normal;
 }
 
-h2 {
+h2, h3 {
 	color:  #FE027E;
 	font-size: 24px;
 	font-family: "Questrial", sans-serif;
@@ -34,6 +34,11 @@ h2 {
 p {
 	max-width: 55ch;
 	margin-bottom: 1em;
+	text-align: justify;
+}
+
+.InfosArtikel {
+	opacity: 60%;
 }
 
 strong { 
@@ -54,6 +59,10 @@ span {
 	font-style: italic, bold;
 	font-weight: 200;
 	color: #FE027E;
+}
+
+footer {
+	opacity: 60%;
 }
 
 a[href^='https://'] { color: #FE027E; }
