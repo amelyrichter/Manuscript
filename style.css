@@ -9,16 +9,22 @@ body {
 h1, {
 	color: #fe027e;
 	font-size: 200px;
-	.imperial-script-regular
-		font-family: "Imperial Script", cursive;
-		font-weight: 400;
-		font-style: normal;
+	font-family: "Imperial Script", cursive;
 }
 
-h2, h3 {
+/* Everything in Imperial script type*/
+.highlight, blockquote, span {
+	font-family: "Imperial Script", cursive;
+}
+
+/* Everything in Montserrat type*/
+.author, h3, .introductionparagraph {
+	font-family: "Montserrat", sans-serif;
+}
+
+.author, h3 {
 	color:  #FE027E;
 	font-size: 24px;
-	font-family: "Montserrat", sans-serif;
 	font-weight: 200;
 	font-style: normal;
 	padding: 0px 0px 40px 0px;
@@ -43,7 +49,6 @@ ul {
 
 .introductionparagraph {
 	font-size: 28px;
-	font-family: "Montserrat", sans-serif;
 	font-weight: 200;
 	font-style: normal;
 	max-width: 42ch;
@@ -55,22 +60,18 @@ ul {
 .highlight { 
 	color: #FE027E;
 	font-size: 200px;
-	font-family: "Imperial Script", cursive;
-	font-weight: 400;
-	font-style: normal;
 }
 
 .InfosArtikel {
 	opacity: 60%;
 }
 
-strong { 
+strong {
 font-weight: bold;
 } 
 
 blockquote {
 	text-align: right;
-	font-family: "Imperial Script", cursive;
 	padding: 24px;
 	font-size: 60px;
 	position: absolute;
@@ -80,7 +81,6 @@ blockquote {
 }
 
 span {
-	font-family: "Imperial Script", cursive;
 	font-size: 30px;
 	font-style: italic, bold;
 	font-weight: 200;
