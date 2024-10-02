@@ -10,6 +10,9 @@ h1, {
 	color: #fe027e;
 	font-size: 200px;
 	font-style: normal;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
 }
 
 /* Everything in Imperial script type*/
@@ -20,10 +23,6 @@ h1, {
 /* Everything in Montserrat type*/
 .author, h3, .introductionparagraph {
 	font-family: "Montserrat", sans-serif;
-}
-
-h2 {
-	margin-top: -40px;
 }
 
 header {
@@ -64,12 +63,16 @@ strong {
 		color: #FE027E;
 	}
 
+	h3 {
+		margin-top: 10em;
+	}
+
 .author, {
 	color: #fe027e;
 	font-size: 24px;
 	font-weight: 200;
 	font-style: normal;
-	margin-top: -50em;
+	margin-top: -40px;
 }
 
 .introductionparagraph {
@@ -86,6 +89,7 @@ strong {
 	color: #FE027E;
 	font-size: 200px;
 	font-style: normal;
+	font-weight: normal;
 }
 
 .InfosArtikel {
@@ -100,7 +104,6 @@ strong {
 	min-width: 40ch;
 	margin-left: 17em;
 }
-
 
 a[href^='https://'] { color: #FE027E; }
 a:link { color: #FE027E;; }
