@@ -1,7 +1,7 @@
 body { 
 	color: rgb(17, 17, 17); 
 	font-family: "Hedvig Letters Serif", serif;
-	font-size: 24px;
+	font-size: 22px;
 	padding: 24px;
 	background-color: #ECF915;
 }
@@ -9,11 +9,11 @@ body {
 h1, {
 	color: #fe027e;
 	font-size: 200px;
-	font-family: "Imperial Script", cursive;
+	font-style: normal;
 }
 
 /* Everything in Imperial script type*/
-.highlight, blockquote, span {
+.highlight, blockquote, span, h3 {
 	font-family: "Imperial Script", cursive;
 }
 
@@ -22,22 +22,17 @@ h1, {
 	font-family: "Montserrat", sans-serif;
 }
 
-.author, h3 {
-	color:  #FE027E;
-	font-size: 24px;
-	font-weight: 200;
-	font-style: normal;
-	padding: 0px 0px 40px 0px;
-}
-
 h2 {
 	margin-top: -40px;
+}
+
+header {
+	color: #FE027E;
 }
 
 p, ul {
 	max-width: 50ch;
 	line-height: 1.5;
-	margin-bottom: 3em;
 	margin-top: 2em;
 	text-align: justify;
 }
@@ -45,6 +40,36 @@ p, ul {
 ul {
 	list-style-type: circle;
 	margin: 25px;
+}
+
+strong {
+	font-weight: bold;
+	} 
+	
+	blockquote {
+		text-align: right;
+		padding: 24px;
+		font-size: 60px;
+		position: absolute;
+		right: 50px;
+		max-width: 15ch;
+		padding: 10px;
+	}
+	
+	span {
+		font-size: 30px;
+		font-size-adjust: ex-height 0.5;
+		font-style: italic, bold;
+		font-weight: 200;
+		color: #FE027E;
+	}
+
+.author, {
+	color: #fe027e;
+	font-size: 24px;
+	font-weight: 200;
+	font-style: normal;
+	margin-top: -50em;
 }
 
 .introductionparagraph {
@@ -60,33 +85,22 @@ ul {
 .highlight { 
 	color: #FE027E;
 	font-size: 200px;
+	font-style: normal;
 }
 
 .InfosArtikel {
 	opacity: 60%;
 }
 
-strong {
-font-weight: bold;
-} 
-
-blockquote {
-	text-align: right;
-	padding: 24px;
-	font-size: 60px;
-	position: absolute;
-	right: 50px;
-	max-width: 15ch;
+.response {
+	text-align: end;
+	text-align: justify;
 	padding: 10px;
+	max-width: 60ch;
+	min-width: 40ch;
+	margin-left: 17em;
 }
 
-span {
-	font-size: 30px;
-	font-size-adjust: ex-height 0.5;
-	font-style: italic, bold;
-	font-weight: 200;
-	color: #FE027E;
-}
 
 a[href^='https://'] { color: #FE027E; }
 a:link { color: #FE027E;; }
