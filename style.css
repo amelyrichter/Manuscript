@@ -28,7 +28,6 @@ h1, {
 	font-weight: 200;
 	font-style: normal;
 	padding: 0px 0px 40px 0px;
-  	
 }
 
 h2 {
@@ -36,7 +35,8 @@ h2 {
 }
 
 p, ul {
-	max-width: 55ch;
+	max-width: 50ch;
+	line-height: 1.5;
 	margin-bottom: 3em;
 	margin-top: 2em;
 	text-align: justify;
@@ -51,7 +51,7 @@ ul {
 	font-size: 28px;
 	font-weight: 200;
 	font-style: normal;
-	max-width: 42ch;
+	max-width: 45ch;
 	margin-bottom: 3em;
 	margin-top: 2em;
 	text-align: justify;
@@ -82,6 +82,7 @@ blockquote {
 
 span {
 	font-size: 30px;
+	font-size-adjust: ex-height 0.5;
 	font-style: italic, bold;
 	font-weight: 200;
 	color: #FE027E;
