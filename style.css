@@ -6,7 +6,7 @@ body {
 	background-color: #ECF915;
 }
 
-h1, {
+h1,.finalblockquote {
 	color: #fe027e;
 	font-size: 200px;
 	font-style: normal;
@@ -61,18 +61,20 @@ strong {
 		font-style: italic, bold;
 		font-weight: 200;
 		color: #FE027E;
+		position: sticky;
+		top: 30px;
 	}
 
 	h3 {
 		margin-top: 10em;
 	}
 
-.author, {
+.author {
 	color: #fe027e;
 	font-size: 24px;
 	font-weight: 200;
 	font-style: normal;
-	margin-top: -40px;
+	margin-top:-45px;
 }
 
 .introductionparagraph {
@@ -87,7 +89,7 @@ strong {
 
 .highlight { 
 	color: #FE027E;
-	font-size: 200px;
+	font-size: 250px;
 	font-style: normal;
 	font-weight: normal;
 }
@@ -103,6 +105,11 @@ strong {
 	max-width: 60ch;
 	min-width: 40ch;
 	margin-left: 17em;
+}
+
+.finalblockquote {
+	line-height: 0.8;
+	font-size: 100px;
 }
 
 a[href^='https://'] { color: #FE027E; }
