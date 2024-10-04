@@ -21,7 +21,7 @@ h1,.finalblockquote {
 }
 
 /* Everything in Montserrat type*/
-.author, h3, .introductionparagraph {
+.author, .introductionparagraph {
 	font-family: "Montserrat", sans-serif;
 }
 
@@ -66,7 +66,13 @@ strong {
 	}
 
 	h3 {
-		margin-top: 10em;
+		margin-top: 2em; 
+		color: #fe027e;
+		font-size: 100px;
+		font-style: normal;
+		font-weight: normal;
+		position: sticky;
+		top: 50px;
 	}
 
 .author {
@@ -112,15 +118,17 @@ strong {
 	font-size: 100px;
 }
 
+strong {
+	font-weight: bold;
+}
+
 a[href^='https://'] { color: #FE027E; }
 a:link { color: #FE027E;; }
 a:visited { color: ; }
 a:hover { color: #ff88c3; }
 
 footer {
-	background-color: cant decide yet;
 	width: 100%;
-	padding: 0px 40px 40px 40px;
 	padding-top:0px
 	padding bottom:40px
 	padding left:40px
