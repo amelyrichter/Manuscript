@@ -15,14 +15,14 @@ h1,.finalblockquote {
 	margin: 0px;
 }
 
-/* Everything in Imperial script type*/
-.highlight, blockquote, span, h3 {
-	font-family: "Imperial Script", cursive;
-}
-
 /* Everything in Montserrat type*/
 .author, .introductionparagraph {
 	font-family: "Montserrat", sans-serif;
+}
+
+/* Everything in Imperial script type*/
+.highlight, blockquote, span, h3 {
+	font-family: "Imperial Script", cursive;
 }
 
 header {
